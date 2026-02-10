@@ -1,5 +1,7 @@
 # Puget Digital Website
 
+**Repo:** [github.com/ykpd/pd-website](https://github.com/ykpd/pd-website)
+
 Next.js site for [Puget Digital](https://puget.digital) — e-commerce agency (Acumatica, Shopify, BigCommerce, ERP integration).
 
 ## Stack
@@ -17,13 +19,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-**Note:** Next.js 16 requires **Node.js >= 20.9.0**. If `npm run build` fails, upgrade Node (e.g. via [nvm](https://github.com/nvm-sh/nvm): `nvm install 20`).
+**Note:** This project uses Next.js 14 (Node 18+). For the latest Next.js 16 use Node >= 20.9.
 
 ## Deploy on Vercel
 
-1. Push to GitHub and import the repo in [Vercel](https://vercel.com).
-2. (Optional) Add env vars for email: `RESEND_API_KEY` or your provider.
-3. Deploy.
+1. Go to [vercel.com/new](https://vercel.com/new) and sign in with GitHub.
+2. **Import** the repo: [github.com/ykpd/pd-website](https://github.com/ykpd/pd-website) (or search `pd-website`).
+3. Leave **Framework Preset** as Next.js and **Root Directory** as `.` → **Deploy**.
+4. (Optional) In Project **Settings → Environment Variables**, add `RESEND_API_KEY` if you wire the contact form to Resend.
 
 ## Project structure
 
